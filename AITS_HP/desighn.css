@@ -1,0 +1,67 @@
+﻿body, div, dl, dt, dd, ul, ol, li, h1, h2, h2, h3, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td  {
+    margin: 0;
+    padding: 0;
+    font-size:22px;
+    font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    line-height: 130%;
+}
+
+div#leftCon {
+    width:400px;
+    height:450px;
+    float:left;
+}
+
+div#leftSpace {
+    width:50px;
+    float:left;
+}
+
+div#rightCon{
+    width:450px;
+    height:450px;
+    float:right;
+}
+
+body {
+    background-color : #F3F3F3;
+}
+
+div#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.guide_row {
+	height:40px;
+}
+
+div#footer {
+    clear : both;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}  
+
+html {
+    overflow: scroll;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+}  
+
+li  {
+    list-style-type: none;
+}  
+
+.contents {
+    width:610px;
+    overflow:hidden;
+}

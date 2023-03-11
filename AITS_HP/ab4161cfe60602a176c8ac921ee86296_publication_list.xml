@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PUBLICATION-LIST CREATE-TIME="1512197231" VERSION="2.0" SITE-ID="ab4161cfe60602a176c8ac921ee86296">
+  <FILES VERSION="11.5.12.2014022417">
+    <ITEM>init.php</ITEM>
+    <ITEM>Zend/Loader.php</ITEM>
+    <ITEM>Zend/Loader</ITEM>
+    <ITEM>Zend/Exception.php</ITEM>
+    <ITEM>Zend/Config.php</ITEM>
+    <ITEM>Zend/Config/Exception.php</ITEM>
+    <ITEM>Zend/Controller/Request/Abstract.php</ITEM>
+    <ITEM>Zend/Controller/Request/Http.php</ITEM>
+    <ITEM>Zend/Controller/Request/Exception.php</ITEM>
+    <ITEM>Zend/Mail.php</ITEM>
+    <ITEM>Zend/Mail/Transport/Exception.php</ITEM>
+    <ITEM>Zend/Mail/Transport/Abstract.php</ITEM>
+    <ITEM>Zend/Mail/Transport/Sendmail.php</ITEM>
+    <ITEM>Zend/Mail/Exception.php</ITEM>
+    <ITEM>Zend/Mime.php</ITEM>
+    <ITEM>Zend/Mime/Message.php</ITEM>
+    <ITEM>Zend/Mime/Part.php</ITEM>
+    <ITEM>Zend/Mime/Exception.php</ITEM>
+    <ITEM>Zend/Uri.php</ITEM>
+    <ITEM>Zend/Uri/Exception.php</ITEM>
+    <ITEM>Zend/Json.php</ITEM>
+    <ITEM>Zend/Json/Expr.php</ITEM>
+    <ITEM>Zend/Json/Encoder.php</ITEM>
+    <ITEM>Zend/Json/Exception.php</ITEM>
+  </FILES>
+  <ADDITIONALITEMS VERSION="11.5.12.2014022417">
+    <ITEM>data</ITEM>
+    <ITEM>css</ITEM>
+    <ITEM>css/header-ea545201-1e05-2b23-4f79-1dfb8ad12347.css</ITEM>
+    <ITEM>css/navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4.css</ITEM>
+    <ITEM>js</ITEM>
+    <ITEM>js/anti_cache.js</ITEM>
+    <ITEM>index.html</ITEM>
+    <ITEM>home</ITEM>
+    <ITEM>home/index.html</ITEM>
+    <ITEM>solutions</ITEM>
+    <ITEM>solutions/index.html</ITEM>
+    <ITEM>guide</ITEM>
+    <ITEM>guide/index.html</ITEM>
+    <ITEM>aisastu</ITEM>
+    <ITEM>aisastu/index.html</ITEM>
+    <ITEM>js/jquery.validate.localization.js</ITEM>
+    <ITEM>data/856edb6d-64ac-a7f3-f310-26f331967cbe.php</ITEM>
+    <ITEM>contact</ITEM>
+    <ITEM>contact/index.php</ITEM>
+    <ITEM>data/3d086620-649e-30cb-f611-485ff5c2e28b.php</ITEM>
+    <ITEM>adoptioninfo</ITEM>
+    <ITEM>adoptioninfo/index.php</ITEM>
+    <ITEM>css/style.css</ITEM>
+    <ITEM>favicon.ico</ITEM>
+    <ITEM>robots.txt</ITEM>
+    <ITEM>sitemap.xml</ITEM>
+    <ITEM>attachments</ITEM>
+    <ITEM>attachments/Header</ITEM>
+    <ITEM>attachments/Header/thumbnail_image_0.png</ITEM>
+    <ITEM>attachments/Header/thumbnail_image_2.png</ITEM>
+    <ITEM>attachments/Header/image_2.png</ITEM>
+    <ITEM>attachments/Header/image_0.png</ITEM>
+    <ITEM>attachments/Image</ITEM>
+    <ITEM>attachments/Image/line.png</ITEM>
+    <ITEM>attachments/Image/jigyou_model_1.png</ITEM>
+    <ITEM>attachments/builtin</ITEM>
+    <ITEM>attachments/builtin/Header</ITEM>
+    <ITEM>attachments/builtin/Header/video-game-studio_01.png</ITEM>
+    <ITEM>attachments/builtin/Logo</ITEM>
+    <ITEM>attachments/builtin/Logo/black.png</ITEM>
+    <ITEM>attachments/builtin/Logo/white.png</ITEM>
+    <ITEM>attachments/Logo</ITEM>
+    <ITEM>attachments/Logo/h_Logo.png</ITEM>
+    <ITEM>attachments/Background</ITEM>
+    <ITEM>attachments/Background/site_bg_1.png</ITEM>
+    <ITEM>attachments/Background/header_bg.png</ITEM>
+    <ITEM>attachments/Background/footer_bg_1.png</ITEM>
+    <ITEM>attachments/Background/header_bg2.png</ITEM>
+    <ITEM>attachments/Background/footer_bg.png</ITEM>
+    <ITEM>attachments/Background/site_bg.png</ITEM>
+    <ITEM>attachments/Documents</ITEM>
+    <ITEM>attachments/Documents/.htaccess</ITEM>
+  </ADDITIONALITEMS>
+  <MODULES VERSION="11.5.12.2014022417">
+    <ITEM>text</ITEM>
+    <ITEM>navigation</ITEM>
+    <ITEM>contact</ITEM>
+  </MODULES>
+  <COMPONENTS VERSION="11.5.12.2014022417">
+    <ITEM>jquery/jquery.js</ITEM>
+    <ITEM>jquery/jquery.validate.js</ITEM>
+    <ITEM>jquery/jquery.textarea-expander.js</ITEM>
+  </COMPONENTS>
+  <TEMPLATE VERSION="5.0.0"/>
+</PUBLICATION-LIST>

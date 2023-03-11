@@ -1,0 +1,48 @@
+
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 {
+			text-align: center;
+		}
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li > a {
+			font-family: "Arial";
+			font-size: 20px;
+		}
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li > a {
+			font-weight: normal;
+			font-style: normal;
+			text-decoration: none;
+		}
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul li > a {
+			font-weight: normal;
+			font-style: normal;
+			text-decoration: none;
+		}
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.selected > a,
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.childselected > a,
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul li.selected > a,
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul li.childselected > a,
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.selected:hover > a,
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.childselected:hover > a,
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul li.selected:hover > a,
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul li.childselected:hover > a {
+			font-weight: normal;
+			font-style: normal;
+			text-decoration: none;
+		}
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li:hover > a,
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul li:hover > a {
+			font-weight: normal;
+			font-style: normal;
+			text-decoration: none;
+		}
+
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 { background-color: #a9a9a9; }
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 > li.normal > a { color: #f5f5f5;}
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 > li.normal { background-color: #a9a9a9; }
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.selected > a, #navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.childselected > a { color: #FFFFFF; }
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.selected, #navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.childselected { background-color: #0C87E9; }
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul > li.normal > a { color: #b23556; }
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul > li.normal { background-color: ; }
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 ul { border: 1px solid #b23556; }
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.normal:hover > a { color: #2E3338; }
+		#navigation-9a9271ae-2237-3a76-136c-4a0bfd4eaca4 li.normal:hover { background-color: #768FA7; }
+		
