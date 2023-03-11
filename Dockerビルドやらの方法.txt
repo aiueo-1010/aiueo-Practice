@@ -1,0 +1,9 @@
+・作業ディレクトリに移動して下記を実行（イメージをビルド）※イメージができたかは「docker image ls」で確認できる
+docker image build -t aits_homepage:1.0 .
+
+・下記を実行してコンテナを起動（起動したかは「docker ps」）
+docker run --name aits_homepage -d aits_homepage
+
+・localhost:8080で表示されなければ下記を実行
+docker run --rm -p 8080:80 aits_homepage:1.0
+
