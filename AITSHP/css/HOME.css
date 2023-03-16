@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000000;
+}
+
+.widget-content-LOGO{
+    text-align: left;
+}
+
+.widget-content-MainBackgroundImage{
+    height: auto;
+    top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.header-image {
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.widget-navigation {
+	padding: 0;
+}
