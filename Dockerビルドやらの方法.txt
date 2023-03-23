@@ -1,9 +1,15 @@
 ・作業ディレクトリに移動して下記を実行（イメージをビルド）※イメージができたかは「docker image ls」で確認できる
+(cd cd [オプション] [ディレクトリ]「例：cd C:\aiueo-Practice」)
 docker image build -t aits_homepage:1.0 .
 
 ・下記を実行してコンテナを起動（起動したかは「docker ps」）
 docker run --name aits_homepage -d aits_homepage
+docker run -it --name aitshp 2c88cb5d687c9bac116b599ad8eca4f65b0888944fddf33f328bf8ef927ae81c[ここはIMAGE ID] bash
+↑これでやった場合Shellを使用したかったら一度Docker Desktopで止める
+
 
 ・localhost:8080で表示されなければ下記を実行
 docker run --rm -p 8080:80 aits_homepage:1.0
 
+
+http://localhost:8080/
