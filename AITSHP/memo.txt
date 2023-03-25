@@ -17,3 +17,4 @@ Warning: include(): Failed opening 'footer.html' for inclusion (include_path='.:
 
 ・cssの内容を変えても画面が変わらない（ファイルを正常に読み込めてない？）
 
+・DockerfileのPHPバージョン変更の仕方が不明（再度調査、それでもわからなければ聞く）
