@@ -22,3 +22,15 @@
 
 - **headの指定cssはページごとにcssの内容を変えるのであればincludeを使用しない方がいいのでは？**<br>
     要確認
+
+- **Dockerのコンテナが起動できない**<br>
+    - イメージのbuild<br>
+    docker image build -t aitshp:latest .<br>
+    ┗ここはできる<br>
+    - Dockerコンテナの起動<br>
+    docker container run -p 8080:80  --name aitshp -v ${PWD}:/var/www/html php8.2-apache<br>
+    ┗下記エラー？が出る<br>
+    >docker: Error response from daemon: pull access denied for php8.2-apache, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.<br>
+
+    Dockerfileのphpの部分は8.2に変更済み
