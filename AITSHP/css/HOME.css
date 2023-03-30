@@ -18,3 +18,9 @@
 .widget-navigation {
 	padding: 0;
 }
+
+.footer-content {
+	background-color: rgb(201, 230, 205);
+	padding-bottom: 10px;
+	text-align: center;
+}

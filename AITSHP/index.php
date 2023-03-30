@@ -11,11 +11,6 @@
             <?php include('header.html') ?>
             <!-- ↑この１行はphp、読み込んでるのはhtml -->
 
-            <!-- ナビゲーションバー -->
-            <div class="">
-
-            </div>
-        
             <!-- footer include -->
             <?php include('footer.html') ?>
             <!-- ↑この１行はphp、読み込んでるのはhtml -->
