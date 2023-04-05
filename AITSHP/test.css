@@ -1,16 +1,37 @@
-#page {
-	height: 100%;
-	position: relative;
+/*タブ切り替え全体のスタイル*/
+.tabs {
+	width: 800px;
+	margin: 0 auto;
 }
 
-.widget {
-	padding: 5px 10px;
+/*タブのスタイル*/
+.tab_item {
+	width: 16%;
+	height: 40px;
+	background-color: #b5b5b5;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+	display: block;
+	float: left;
+	margin: 0 auto;
+	transition: all 0.2s ease;
 }
 
-.widget-navigation {
-	padding: 0;
+.tab_item:hover {
+	opacity: 0.1;
+	background-color: #494c65;
 }
 
-.widget-navigation .widget-content {
-	overflow-x: visible;
+ul{
+	padding-left:0;
+}
+
+li{
+	list-style:none;
+}
+
+.background-color {
+	background-color: rgb(41, 94, 255);
 }
