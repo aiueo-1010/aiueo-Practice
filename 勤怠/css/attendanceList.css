@@ -1,0 +1,8 @@
+.table-style {
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.table-style > tbody > tr > td {
+    text-align: center;
+}

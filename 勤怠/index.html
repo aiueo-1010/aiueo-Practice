@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>勤怠画面作成テスト</title>
+        <!--    
+        <script src="js/common.js"></script>
+        -->
+    </head>
+
+    <body style="visibility: hidden;">
+        <!--
+            テーブル表示か1行ずつタグを書いてforで回すか。
+            おそらくライブラリを考えるとテーブル表示のほうが楽かつレスポンスが早い気がする
+            テーブル表示、gred表示あたりのライブラリの調査とレスポンスチェック
+                スマホ表示にも対応しているかもチェックする
+        -->
+
+        <div class="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            日付
+                        </th>
+                        <th>
+                            区分
+                        </th>
+                        <th>
+                            出勤
+                        </th>
+                        <th>
+                            退勤
+                        </th>
+                        <th>
+                            休憩
+                        </th>
+                        <th>
+                            稼働時間
+                        </th>
+                        <th>
+                            残業時間
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            3/25 <span style="color: blue;">土</span>
+                        </td>
+                        <td>
+                            <select>
+                                <option>出勤</option>
+                                <option>休日</option>
+                                <option>有給</option>
+                                <option>休出</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="time" />
+                        </td>
+                        <td>
+                            <input type="time" />
+                        </td>
+                        <td>
+                            <input type="time" />
+                        </td>
+                        <td>
+                            <span>
+                                08:00
+                            </span>
+                        </td>
+                        <td>
+                            <span>
+                                02:00
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    
+    <script>
+        // window onloadと同様のタイミングで実行される
+        window.addEventListener("load",function() {
+            /*
+                これを使えば若干レンダリングが遅くても読込後（厳密には画像は読み込まれる前だが）に画面表示されるため、
+                上から順に表示されることはなさそう。
+                ただし、vueやらReactやらでもっといいやり方があるのであればそっちで作りたいかも
+                ↓のPGMが呼ばれるまでRoading表示をする
+                    -> safari on iosが未対応なのでだめ
+            */
+            document.body.style.visibility = 'visible';
+        });
+    </script>
+</html>

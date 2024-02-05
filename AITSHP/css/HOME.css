@@ -1,20 +1,99 @@
-.widget-content-LOGO{
-    text-align: left;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.widget-content-MainBackgroundImage{
-    height: auto;
-    top: 0px;
-	left: 0px;
-	width: 100%;
+/*----------------------------------------------*/
+
+.widget-content-LOGO {
+    text-align: left;    /*左寄せにする*/
+    padding: 5px 10px;   /*paddingを上下5px左右10px取る*/
+}
+
+.widget-content-Main_Image {
+	width: 100%;   /*画面サイズに合わせて横幅を100%表示する*/
 }
 
 .header-image {
-	top: 0px;
-	left: 0px;
-	width: 100%;
+	width: 100%;              /*画面サイズに合わせて横幅を100%表示する*/
+    vertical-align: bottom;   /*imgの下揃え（下部余白を消すため）*/
 }
 
-.widget-navigation {
-	padding: 0;
+.footer-content {
+	background-color: #DAEDEE;   /*背景色を指定*/
+	padding-bottom: 10px;          /*paddingを下10PX取る*/
+	text-align: center;            /*中央揃え*/
+}
+
+.tabs {
+    width: 100%;                   /*画面サイズに合わせて横幅を100%表示する*/
+    height: 41px;                  /*高さを41pxで表示する*/
+    font-size: 20px;               /*フォントサイズを20pxで表示する*/
+    text-align: center;            /*中央揃え*/
+    background-color: #A9A9A9;   /*背景色を指定*/
+}
+
+.tab_item {
+    padding: 6px 10px 7px;         /*paddingを上6px下7px左右10px取る*/
+    color: #f5f5f5;              /*文字色を指定*/
+    display: block;                /*ブロック要素に指定*/
+    float: left;                   /*要素を左揃え*/
+    background-color: #A9A9A9;   /*背景色を指定*/
+}
+
+.tab_item:hover {
+    background-color: #889ac6;   /*選択時の背景色を指定*/
+    color: #000000;              /*選択時の文字色を指定*/
+}
+
+.Selected_item {
+    padding: 6px 10px 7px;         /*paddingを上6px下7px左右10px取る*/
+    background-color: #0C87E9;   /*背景色を指定*/
+    color: #f5f5f5;              /*文字色を指定*/
+    display: block;                /*ブロック要素に指定*/
+    float: left;                   /*要素を左揃え*/
 }
