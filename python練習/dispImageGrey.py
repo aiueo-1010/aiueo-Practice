@@ -5,7 +5,7 @@ import PIL.ImageTk #tkinterで作った画面上に画像を表示させるモ�
 
 def dispPhoto(path) :
     #画像を読み込む
-    newImage = PIL.Image.open(path).resize((300,300))
+    newImage = PIL.Image.open(path).convert("L").resize((300,300)) #convert("L")でモノクロ（グレースケール）にしている
     #そのイメージをラベルに表示する
     imageData = PIL.ImageTk.PhotoImage(newImage)
     imageLabel.configure(image = imageData)
