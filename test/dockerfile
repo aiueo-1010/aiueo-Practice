@@ -1,0 +1,50 @@
+FROM python:3
+
+RUN apt-get update
+RUN pip install --upgrade pip
+RUN python -m pip install jupyterlab
+
+
+# python version number:3.9.16
+# FROM：すでに存在するイメージファイルを取得し、それを元に新しくイメージファイルを作り出す。
+FROM python:3.9.16
+# この場合は、「python:3.9.16」という名前のイメージファイルを取得し、その上に新しいイメージファイルを作り出していきます。
+
+# code ... directory for python codes.
+# WORKDIR：ファイルの作業場所を指定します。
+WORKDIR /code
+# この場合は、/codeディレクトリを指定して作業場所を指定します。
+
+# copy localcode to container image.
+# COPY：ローカルPCに存在するファイルをイメージ内部にコピーするコマンド
+COPY ./code /code
+
+
+# RUN：Linuxコマンドを実行します。
+# upgrade pip command
+RUN pip install --upgrade pip
+
+# install python lib
+RUN pip install -r requirements.txt
+# 今回はpipライブラリのアップデートと、requirements.txtに存在するライブラリをインストールを実行します。
+
+
+
+# FROM ベースイメージを指定する
+# RUN	コマンドを実行する
+# CMD	コンテナの実行コマンド
+# ENV	環境変数の指定
+# COPY	ファイルコピー
+
+# FROM 本となるDockerイメージの指定
+# RUN コマンドの実行
+# ADD ファイル/ディレクトリの追加
+# CMD コンテナの実行コマンド1
+# ENTRYPOINT コンテナの実行コマンド2
+# WORKDIR 作業ディレクトリの指定
+# EMV 環境変数の指定
+# EXPOSE ポートのエクスポート
+# なお、CMDとENTRYPOINTの違いについて、前者はDockerfile実行時にデフォルトで実行したいコマンドを記載するのに対し、後者は必ず実行したいコマンドを記載する必要がある。
+
+
+

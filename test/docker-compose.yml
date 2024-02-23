@@ -1,0 +1,32 @@
+services:
+jupyterlab:
+build: .
+image: jupyterlab-test-img
+container_name: jupyterlab-test
+working_dir: /work
+volumes:
+- ./work:/work
+ports:
+- "8888:8888"
+command:
+
+
+version: '3'
+services:
+  python3:
+    build: .
+    container_name: 'python3'
+    working_dir: '/root/'
+    tty: true
+    volumes:
+      - ./opt:/root/opt
+
+version: '3'
+services:
+  python3:
+    # コンテナ名
+    container_name: "python3"
+    # 公式イメージから作成
+    image: "python:3"
+    # 起動永続
+    tty: truevv
