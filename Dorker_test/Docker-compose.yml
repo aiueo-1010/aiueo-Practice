@@ -1,10 +1,10 @@
-version: '3'
-services:
-  python3:
-    restart: always
-    build: .
-    container_name: 'python3'
-    volumes:
-            - .:/usr/src/app
-    tty: true
+version: '3' #docker-composeで使用するバージョンの指定
+services: #コンテナの全体構成
+  python3: #pythonのバージョン
+    restart: always #コンテナが停止したら常に再起動させる
+    build: . #
+    container_name: 'python3' #
+    volumes: #
+            - .:/usr/src/app #
+    tty: true #
 
