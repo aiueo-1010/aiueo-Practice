@@ -1,0 +1,22 @@
+・イメージ作成とコンテナの作成,起動
+docker-compose up -d --build
+
+・イメージの確認
+docker image ls
+
+・コンテナの確認
+docker container ls
+
+・コンテナ内に入る
+docker exec -it (CONTAINER ID) /bin/bash
+
+・コンテナ停止,削除
+docker-compose down (CONTAINER ID)
+・コンテナ停止,削除とイメージ削除
+docker-compose down --rmi all
+
+・イメージ削除
+docker image rm (IMAGE ID)
+
+
+
