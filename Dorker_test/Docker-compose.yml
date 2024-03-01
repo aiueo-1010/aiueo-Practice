@@ -2,9 +2,9 @@ version: '3' #docker-composeで使用するバージョンの指定
 services: #コンテナの全体構成
   python3: #pythonのバージョン
     restart: always #コンテナが停止したら常に再起動させる
-    build: . #
-    container_name: 'python3' #
-    volumes: #
-            - .:/usr/src/app #
-    tty: true #
+    build: . #このファイルがあるフォルダにあるdockerfileを使用
+    container_name: 'python3' #コンテナの名前
+    volumes: #対応させるメモリ領域を指定？
+            - .:/usr/src/app #このファイルがあるディレクトリ：コンテナ側のディレクトリ
+    tty: true #コンテナの永続起動
 
