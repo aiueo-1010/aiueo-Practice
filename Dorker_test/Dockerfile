@@ -1,10 +1,9 @@
-FROM python:3
+#DockerHubからダウンロードするイメージを指定
+FROM python:3 
 
-RUN pip install numpy
-RUN pip install scipy
-RUN pip install scikit-learn
-RUN pip install matplotlib
-RUN pip install seaborn
-
+#イメージ内の作業ディレクトリを指定します
 WORKDIR /usr/src/app
-COPY . /usr/src/app
+
+#コンテナにファイルをコピー
+COPY . /usr/src/app 
+#このファイルがあるディレクトリ→WORKDIRで指定した作業ディレクトリ
